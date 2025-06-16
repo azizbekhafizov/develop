@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAppContext } from "../context/AppContext";
-import teachers from "../data/teachers"; // ✅ login maʼlumotlari shu yerda
+import teachers from "../data/teachers";
 
 export default function LoginPage() {
   const [login, setLogin] = useState("");
